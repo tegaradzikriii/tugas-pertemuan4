@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Iwima</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="register">
+    <section class="container">
+      <header>Registrasi</header>
+      <form class="form" action="#">
+        <div class="input-box">
+          <label >Nama lengkap</label>
+          <input type="text" placeholder ="Masukkan nama lengkap"required>
+        </div>
+        <div class="input-box">
+          <label >Email</label>
+          <input type="text" placeholder ="Masukkan Email"required>
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Nomor telepon</label>
+            <input type="number" placeholder="Masukkan Nomor Telepon"required>
+          </div>
+          <div class="input-box">
+            <label>Tanggal Lahir</label>
+            <input type="date" placeholder="Masukkan Tanggal lahir"required>
+          </div>
+        </div>
+        <div class="gender">
+          <h3>Jenis Kelamin</h3>
+            <div class="gendet-option">
+              <div class="gdr">
+                <input type="radio" id="pria" name="gender" checked>
+                <label for="pria">Pria</label>
+              </div>
+              <div class="gdr">
+                <input type="radio" id="wanita" name="gender" checked>
+                <label for="wanita">Wanita</label>
+              </div>
+            </div>
+        </div>
+        <div class="input-box address">
+          <label >Alamat</label>
+          <input type="text" placeholder ="Masukkan Alamat"required>
+          <input type="text" placeholder ="Masukkan Desa"required>
+          <div class="column">
+            <div class="select-box">
+              <select required>
+                <option hidden>Provinsi</option>
+                <option>Jawa Barat</option>
+                <option>Jawa Tengah</option>
+                <option>Jawa Timur</option>
+              </select>
+            </div>
+            <input type="text" placeholder ="Masukkan Alamat"required>
+          </div>
+          <div class="column">
+            <input type="text" placeholder ="Lebih spesifik"required>
+            <input type="text" placeholder ="kode pos"required>
+          </div>
+        </div>
+        <button>Daftar</button>
+      </form>
+    </section>
+  </body>
+</html>
+    
